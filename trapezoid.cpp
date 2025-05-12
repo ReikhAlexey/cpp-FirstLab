@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Функция для проверки, может ли существовать трапеция с заданными сторонами
+// Функция для проверки, может ли существовать трапеция с заданными сторонами, все 4 стороны
 bool isValidTrapezoid(double bottomBase, double topBase, double leftSide, double rightSide) {
     // Трапеция существует, если сумма длин боковых сторон больше разности оснований
     double baseDifference = abs(bottomBase - topBase);
