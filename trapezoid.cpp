@@ -31,7 +31,7 @@ double calculateHeight(double bottomBase, double topBase, double leftSide, doubl
 
 int main() { 
 
-    double bottomBase, topBase, leftSide, rightSide;
+    double bottomBase, topBase, leftSide, rightSide; //Для коммита
     
     cout << "Enter all side lengths of the trapezoid:\n";//Введите все длины сторон трапеции:
     cout << "Bottom base: ";//"Нижнее основание:
